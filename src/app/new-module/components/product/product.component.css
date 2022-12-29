@@ -1,0 +1,78 @@
+.product {
+    width: 300px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 200px;
+    height: 350px;
+    background-size: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5); 
+    margin: 0 0 15px 0;
+}
+
+.info h3 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.info a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.text-in {
+    margin: 10px 0;
+}
+
+.auxiliary-info {
+    display: flex; 
+    /* управлять расположением єллементов */
+
+    flex-flow: row nowrap;
+    /* в строку и не заворачиваться */
+
+    justify-content: space-between;
+    /* расстояние между эллементами */
+
+    align-items: center;
+    margin-top: 10px;
+}
+
+.add-to-cart {
+    width: 40px;
+    height: 40px;
+    background: url('../../../../assets/cart-outline.svg') no-repeat center lightgreen;
+    background-size: 60%;
+    border-radius: 10px;
+    /* display: flex;  */
+    /* align-items: выравниевание по вертикали; */
+    /* justify-content: выравнивание по горизонтали; */
+}
+
+.price {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.description, .title{
+    height: 70px;
+    overflow: hidden;
+}
+
+:host {
+    /* display: inline-block;
+    vertical-align: top;
+    width: 300px; */
+    padding: 20px;
+}

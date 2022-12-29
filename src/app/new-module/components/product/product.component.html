@@ -1,0 +1,18 @@
+<div class="product">
+  <div class="image-container">
+    <div class="image" #image></div>
+  </div>
+  <div class="info">
+    <h3 class="text-in title">{{ product.title }}</h3>
+    <p class="text-in description">{{ product.description }}</p>
+    <a class="text-in" href="#">{{ product.category }}</a>
+    <div class="auxiliary-info">
+      <span>Rate: {{ product.rating.rate }}</span>
+      <span>Amount: {{ product.rating.count }}</span>
+    </div>
+    <div class="auxiliary-info">
+      <span class="price">{{ product.price }} &#36;</span>
+      <button class="add-to-cart"></button>
+    </div>
+  </div>
+</div>

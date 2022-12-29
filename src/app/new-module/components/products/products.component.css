@@ -1,0 +1,22 @@
+.header {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: large;
+}
+
+.products {
+    padding: 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* app-product {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin: 10px 10px;
+} */
